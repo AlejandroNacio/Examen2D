@@ -1,14 +1,19 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemigo : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
+    public string playerTag = "Player"; 
 
-    void Update()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.CompareTag(playerTag))
+        {
+            
+           
+            
+           
+            }
+        }
     }
 }
