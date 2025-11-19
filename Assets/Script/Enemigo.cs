@@ -9,11 +9,8 @@ public class Enemigo : MonoBehaviour
     {
         if (other.CompareTag(playerTag))
         {
+
             
-           
-            
-           
-            }
         }
     }
 }
